@@ -1,6 +1,6 @@
 import generatorImg from "../assets/generator.jpeg";
-import pumpImg from "../assets/pump.jpg";
-import grinderImg from "../assets/grinder4.png";
+import pumpImg from "../assets/pump2.png";
+import grinderImg from "../assets/grinder-small2.png";
 import scaffoldingImg from "../assets/scaffolding.jpg";
 
 export default function Services() {
@@ -16,7 +16,7 @@ export default function Services() {
       img: pumpImg,
     },
     {
-      title: "Metal Cutting Grinders",
+      title: "Power Tools",
       desc: "High-performance tools for cutting metal with precision and safety.",
       img: grinderImg,
     },
@@ -43,7 +43,7 @@ export default function Services() {
             <img
               src={s.img}
               alt={s.title}
-              className="w-auto h-[230px] object-cover"
+              className="max-w-[400px] h-[230px] object-cover"
             />
 
             <div className="p-6 flex flex-col flex-1">

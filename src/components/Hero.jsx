@@ -1,4 +1,7 @@
-import excavatorVideo from "../assets/excavator_video.mp4";
+import excavatorVideo from "../assets/excavator_video2.mp4";
+import posterImg from "../assets/powertools2.webp";
+
+
 
 export default function Hero() {
   return (
@@ -12,6 +15,8 @@ export default function Hero() {
         loop
         muted
         playsInline
+        preload="metadata"
+        poster={posterImg}
         className="absolute inset-0 w-full h-full object-cover filter brightness-50"
       >
         <source src={excavatorVideo} type="video/mp4" />
